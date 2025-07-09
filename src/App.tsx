@@ -5,6 +5,7 @@ import ExpenseList from './components/ExpenseList';
 import ExpenseSummary from './components/ExpenseSummary';
 import ExpenseFilters from './components/ExpenseFilters';
 import { Expense } from './types';
+//import './App.css'; 
 import { loadExpenses, saveExpenses, exportExpenses } from './utils/storage';
 import { filterExpenses } from './utils/helpers';
 
