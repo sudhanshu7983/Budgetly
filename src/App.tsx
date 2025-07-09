@@ -5,7 +5,9 @@ import ExpenseList from './components/ExpenseList';
 import ExpenseSummary from './components/ExpenseSummary';
 import ExpenseFilters from './components/ExpenseFilters';
 import { Expense } from './types';
-//import './App.css'; 
+// import { IndianRupee } from 'lucide-react';
+
+
 import { loadExpenses, saveExpenses, exportExpenses } from './utils/storage';
 import { filterExpenses } from './utils/helpers';
 
@@ -72,7 +74,7 @@ function App() {
                 <Wallet className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">ExpenseTracker</h1>
+                <h1 className="text-xl font-bold text-gray-900">Budgetly</h1>
                 <p className="text-sm text-gray-500">Track your daily expenses</p>
               </div>
             </div>

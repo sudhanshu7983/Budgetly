@@ -1,5 +1,5 @@
 import React from 'react';
-import { DollarSign, TrendingUp, Calendar } from 'lucide-react';
+import { IndianRupee, TrendingUp, Calendar } from 'lucide-react';
 import { Expense, EXPENSE_CATEGORIES } from '../types';
 import { formatCurrency, getTotalExpenses, getExpensesByCategory } from '../utils/helpers';
 
@@ -30,9 +30,10 @@ const ExpenseSummary: React.FC<ExpenseSummaryProps> = ({ expenses }) => {
             <p className="text-emerald-100 text-sm font-medium">Total Expenses</p>
             <p className="text-2xl font-bold">{formatCurrency(totalExpenses)}</p>
           </div>
-          <div className="bg-white bg-opacity-20 rounded-full p-3">
-            <DollarSign className="w-6 h-6" />
-          </div>
+         <div className="bg-white bg-opacity-20 rounded-full p-3">
+  <IndianRupee className="w-6 h-6" />
+</div>
+
         </div>
       </div>
 
